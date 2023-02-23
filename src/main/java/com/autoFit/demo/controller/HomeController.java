@@ -8,16 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.persistence.Column;
 import java.security.Principal;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 @Controller
@@ -57,17 +52,4 @@ public class HomeController {
         return "regPage";
     }
 
-    @GetMapping(value = "/save")
-    public String save(UserModel userModel, AddressModel addressModel, Model model) {
-        userModel.setRole("ROLE_USER");
-        userService.save(userModel);
-        addressModel.setUser(userModel);
-        addressService.save(addressModel);
-        Set<AddressModel> addressModelList = new HashSet<>();
-        addressModelList.add(addressModel);
-        userModel.setAddressModelList(addressModelList);
-        userService.save(userModel);
-        model.addAttribute("message", " Hi " + userModel.getFirstName() + userModel.getLastName() + " Your request is added...Kindly wait for Approval ");
-        return "success";
-    }
 }
