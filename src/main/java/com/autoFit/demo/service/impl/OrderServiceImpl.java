@@ -1,9 +1,7 @@
 package com.autoFit.demo.service.impl;
 
 import com.autoFit.demo.dao.OrderDao;
-import com.autoFit.demo.dao.QuoteDao;
 import com.autoFit.demo.model.OrderModel;
-import com.autoFit.demo.model.QuoteModel;
 import com.autoFit.demo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 

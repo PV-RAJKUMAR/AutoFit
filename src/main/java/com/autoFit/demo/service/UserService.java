@@ -1,11 +1,8 @@
 package com.autoFit.demo.service;
 
-import com.autoFit.demo.dto.UserDTO;
-import com.autoFit.demo.model.AddressModel;
 import com.autoFit.demo.model.UserModel;
 
 import java.util.List;
-import java.util.Set;
 
 public interface UserService {
     public void save(UserModel user);

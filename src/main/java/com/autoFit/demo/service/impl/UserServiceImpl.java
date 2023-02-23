@@ -1,14 +1,12 @@
 package com.autoFit.demo.service.impl;
 
 import com.autoFit.demo.dao.UserDao;
-import com.autoFit.demo.dto.UserDTO;
-import com.autoFit.demo.model.AddressModel;
 import com.autoFit.demo.model.UserModel;
 import com.autoFit.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
-import java.util.Set;
+
 
 public class UserServiceImpl implements UserService {
     @Autowired

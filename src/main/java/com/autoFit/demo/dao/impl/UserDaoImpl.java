@@ -1,7 +1,6 @@
 package com.autoFit.demo.dao.impl;
 
 import com.autoFit.demo.dao.UserDao;
-import com.autoFit.demo.model.AddressModel;
 import com.autoFit.demo.model.UserModel;
 import com.autoFit.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

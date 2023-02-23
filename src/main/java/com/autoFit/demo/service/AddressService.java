@@ -1,6 +1,5 @@
 package com.autoFit.demo.service;
 
-import com.autoFit.demo.dto.AddressDTO;
 import com.autoFit.demo.model.AddressModel;
 
 import java.util.List;
@@ -16,7 +15,4 @@ public interface AddressService {
 
     public List<Integer> findAddressId(int userId);
 
-    public AddressDTO convertToDTO(AddressModel addressModel);
-
-    public AddressModel convertToModel(AddressDTO addressDTO);
 }

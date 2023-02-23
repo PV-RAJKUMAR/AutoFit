@@ -2,9 +2,7 @@ package com.autoFit.demo.dao.impl;
 
 import com.autoFit.demo.dao.OrderDao;
 import com.autoFit.demo.model.OrderModel;
-import com.autoFit.demo.model.QuoteModel;
 import com.autoFit.demo.repository.OrderRepository;
-import com.autoFit.demo.repository.QuoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
