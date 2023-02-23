@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b25bbab-d0fa-49d1-bc19-37ee868fd754" name="Changes" comment="test">
+    <list default="true" id="8b25bbab-d0fa-49d1-bc19-37ee868fd754" name="Changes" comment="attached gitIgnore">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/autoFit/demo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autoFit/demo/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/autoFit/demo/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/autoFit/demo/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/autoFit/demo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/autoFit/demo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/autoFit/demo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/autoFit/demo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autoFit/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autoFit/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web-app/WEB-INF/views/userTransactions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web-app/WEB-INF/views/userTransactions.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/autoFit/demo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/autoFit/demo/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/rajkumar.pv/IdeaProjects/AutoFit",
+    "last_opened_file_path": "C:/Users/rajkumar.pv/IdeaProjects/Banking-App",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677136226631</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="attached gitIgnore">
+      <created>1677137222308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677137222308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +180,7 @@
     <MESSAGE value="changes done" />
     <MESSAGE value="second commit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="attached gitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="attached gitIgnore" />
   </component>
 </project>

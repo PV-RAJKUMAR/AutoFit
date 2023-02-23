@@ -5,14 +5,10 @@ d
 ,src/main/web-app/WEB-INF/views/loginPage.jsp,0\6\06c62caa8cd6b1f8be9aa7d1e6f7a7740991ec4e
 V
 &src/main/web-app/WEB-INF/views/403.jsp,4\0\40cfddf7e022db37ea48b0a5c020e4181e08322f
-]
--src/main/web-app/WEB-INF/views/orderList3.jsp,d\5\d534434200fcb8d2561774ba428a83b5552d2cb2
 \
 ,src/main/web-app/WEB-INF/views/quoteList.jsp,9\e\9ef775e7ed8aff063c2f01833ec1b6abd7bc7f06
 b
 2src/main/web-app/WEB-INF/views/listForApproval.jsp,4\6\46661d3fc2168777ad8668ec0c883faecfa2a611
-c
-3src/main/web-app/WEB-INF/views/userTransactions.jsp,b\8\b89917c8f55a541883ec0d06b3ce2a2516839155
 a
 1src/main/web-app/WEB-INF/views/orderStatement.jsp,b\6\b6b27ed0cdbc35026032cd7d7d2dbeafca7232e3
 `
@@ -21,8 +17,6 @@ a
 +src/main/web-app/WEB-INF/views/success2.jsp,b\9\b9e6925bec466a44b67321e00e1909b62f82bf97
 ^
 .src/main/web-app/WEB-INF/views/pricingPage.jsp,f\3\f3119af7164e6c6847aa639020ec84445ecfb3a7
-]
--src/main/web-app/WEB-INF/views/orderList2.jsp,0\3\039433423e5265bbb225f17fc85c94a1170f8750
 Z
 *src/main/web-app/WEB-INF/views/regPage.jsp,1\0\10a5a2b578690373406e44ed52e6dd68c2453952
 `
@@ -41,8 +35,6 @@ b
 2src/main/web-app/WEB-INF/views/partListByBrand.jsp,6\1\61b1b44f940bfc4abb6f4a1be49da4576265b362
 \
 ,src/main/web-app/WEB-INF/views/partList1.jsp,c\9\c9a1169e6bcca6145b769afa4782ed2eb79e611f
-]
--src/main/web-app/WEB-INF/views/orderList1.jsp,c\d\cda50fc0928b90ae5fbe9e23cf86495d9acfb2cb
 _
 /src/main/web-app/WEB-INF/views/orderDetails.jsp,1\2\128e1f5af77791a135fdac3f24914391f9869226
 J
@@ -57,8 +49,6 @@ _
 /src/main/java/com/autoFit/demo/dao/CartDao.java,4\9\49deb2a61d839667d22bd0b48b3bafcf79da3603
 h
 8src/main/java/com/autoFit/demo/dao/impl/CartDaoImpl.java,b\6\b61add8a3cd05d6965f4d2e6330f5841a52272af
-c
-3src/main/java/com/autoFit/demo/model/CartModel.java,e\5\e5e85ce26d0a3d55fe6e7596e732779ecf750e9c
 m
 =src/main/java/com/autoFit/demo/repository/CartRepository.java,8\0\809a11eea05c8252db76d3b81bffa4945e282b61
 g

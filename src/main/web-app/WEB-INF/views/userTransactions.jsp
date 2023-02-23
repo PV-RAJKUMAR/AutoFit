@@ -45,6 +45,7 @@
         <th scope="col">QUOTE DETAILS</th>
         <th scope="col">BILLED AMOUNT</th>
         <th scope="col">(QUOTE APPROVED)BILLABLE AMOUNT</th>
+        <th scope="col">STATUS</th>
       </tr>
     </thead>
     <tbody>
@@ -60,6 +61,15 @@
         <c:if test ="${list.approvedAmount > 0}">
         <td>${list.approvedAmount}</td>
         </c:if>
+        <c:if test ="${list.status == 'pending'}">
+        <td>DISPATCHED</td>
+        </c:if>
+        <c:if test ="${list.status == 'approved'}">
+        <td>OUT FOR DELIVERY</td>
+        </c:if>
+        <c:if test ="${list.status == null}">
+                <td>REVERTED</td>
+                </c:if>
       </tr>
 </c:forEach>
       </tbody>
