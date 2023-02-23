@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.security.Principal;
@@ -50,6 +51,20 @@ public class HomeController {
         model.addAttribute("user", new UserModel());
         model.addAttribute("address", new AddressModel());
         return "regPage";
+    }
+
+    @PostMapping(value = "/save")
+    public String save(UserModel userModel, AddressModel addressModel, Model model) {
+        userModel.setRole("ROLE_USER");
+        userService.save(userModel);
+        addressModel.setUser(userModel);
+        addressService.save(addressModel);
+        Set<AddressModel> addressModelList = new HashSet<>();
+        addressModelList.add(addressModel);
+        userModel.setAddressModelList(addressModelList);
+        userService.save(userModel);
+        model.addAttribute("message", " Hi " + userModel.getFirstName() + userModel.getLastName() + " Your request is added...Kindly wait for Approval ");
+        return "success1";
     }
 
 
