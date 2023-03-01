@@ -19,4 +19,6 @@ public interface OrderDao
     public List<Integer> findPartIds(int cartId) ;
 
     public List<Integer> OrderModelIds(int cartId) ;
+
+    public void delete(OrderModel orderModel);
 }

@@ -66,11 +66,17 @@
           </div>
         </div>
     <div class="form-group row">
-          <form:label for="inputPassword3" class="col-sm-2 col-form-label" path="gender"><i><b>Age</i></b></form:label>
+          <form:label for="inputPassword3" class="col-sm-2 col-form-label" path="gender"><i><b>Gender</i></b></form:label>
           <div class="col-sm-10">
             <form:input type="text" class="form-control" id="inputPassword3" placeholder="Gender" path="gender" readonly="true"/>
           </div>
         </div>
+    <div class="form-group row">
+              <form:label for="inputPassword3" class="col-sm-2 col-form-label" path="gender"><i><b>Gender</i></b></form:label>
+              <div class="col-sm-10">
+                <form:input type="text" class="form-control" id="inputPassword3" placeholder="Gender" path="gender" readonly="true"/>
+              </div>
+            </div>
 <div class="form-group row">
           <form:label for="inputPassword3" class="col-sm-2 col-form-label" path="phoneNo"><i><b>Phone No</i></b></form:label>
           <div class="col-sm-10">

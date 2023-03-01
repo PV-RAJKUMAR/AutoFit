@@ -38,4 +38,8 @@ public class OrderDaoImpl implements OrderDao {
     public List<Integer> OrderModelIds(int cartId) {
         return orderRepository.OrderModelIds(cartId);
     }
+
+    public void delete(OrderModel orderModel) {
+        orderRepository.delete(orderModel);
+    }
 }

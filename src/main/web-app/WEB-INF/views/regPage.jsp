@@ -141,6 +141,12 @@
           </div>
         </div>
   <div class="form-group row">
+            <form:label for="inputEmail3" class="col-sm-2 col-form-label" path="country"><b><i>Country</i></b></form:label>
+            <div class="col-sm-10">
+              <form:input type="text" class="form-control" id="inputEmail3" placeholder="Country" path="country"/>
+            </div>
+          </div>
+  <div class="form-group row">
               <form:label for="inputEmail3" class="col-sm-2 col-form-label" path="pincode"><b><i>ZipCode</i></b></form:label>
               <div class="col-sm-10">
                 <form:input type="text" class="form-control" id="inputEmail3" placeholder="Country" path="pincode"/>

@@ -175,7 +175,11 @@ public class UserController {
         orderModel.setPartId(partId);
         orderModel.setAmount(orderModel.getQuantity() * sparePartModel.getPrice());
         orderModel.setCart(cartModel);
-        orderService.save(orderModel);
+        if (orderModel.getQuantity() > 0) {
+            orderService.save(orderModel);
+        } else {
+            mv.setViewName("error");
+        }
         Set<OrderModel> orderModelList = new HashSet<>();
         orderModelList.add(orderModel);
         cartModel.setOrderModelList(orderModelList);

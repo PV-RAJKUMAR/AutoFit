@@ -28,7 +28,7 @@ public class AdminController {
     CartService cartService;
 
     @Autowired
-    OrderRepository orderRepository;
+    OrderService orderService;
 
     @Autowired
     SparePartService sparePartService;
@@ -140,8 +140,8 @@ public class AdminController {
     public ModelAndView orderDetails(@PathVariable int cartId) {
         ModelAndView mv = new ModelAndView("orderList2");
         CartModel cartModel = cartService.get(cartId);
-        List<OrderModel> orderModels = orderRepository.OrderModelList(cartId);
-        List<Integer> partIdLists = orderRepository.findPartIds(cartId);
+        List<OrderModel> orderModels = orderService.OrderModelList(cartId);
+        List<Integer> partIdLists = orderService.findPartIds(cartId);
         List<SparePartModel> sparePartModels = new ArrayList<>();
         for (int i : partIdLists) {
             SparePartModel sparePartModel = sparePartService.get(i);
@@ -170,7 +170,7 @@ public class AdminController {
             SparePartModel sparePartModel = sparePartService.get(partId);
             sparePartModel.setAvlCount(orderModel.getQuantity() + sparePartModel.getAvlCount());
             sparePartService.save(sparePartModel);
-            orderRepository.delete(orderModel);
+            orderService.delete(orderModel);
         }
         cartService.delete(cartId);
         return "redirect:/admin/listForApproval";

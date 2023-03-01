@@ -38,4 +38,8 @@ public class OrderServiceImpl implements OrderService {
     public List<Integer> OrderModelIds(int cartId) {
         return orderDao.OrderModelIds(cartId);
     }
+
+    public void delete(OrderModel orderModel) {
+        orderDao.delete(orderModel);
+    }
 }
